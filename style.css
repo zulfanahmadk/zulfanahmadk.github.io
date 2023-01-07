@@ -380,7 +380,7 @@ section .title::after{
 
 /* ress section styling */
 .ress .title::after{
-    content: "my results";
+    content: "some project";
 }
 .ress .carousel .card{
     background: #222;
