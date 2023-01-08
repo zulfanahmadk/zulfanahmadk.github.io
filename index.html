@@ -99,7 +99,7 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>New Balance began as a Boston-based arch support company in the early 1900&#39;s, developed <span id="jagoankodeblog">...</span><span id="selengkapnya">into a specialized shoe manufacturer in the 1970&#39;s, and has grown to 
+                    <p>New Balance began as a Boston-based arch support company in the early 1900&#39;s, developed <span id="dots">...</span><span id="selengkapnya">into a specialized shoe manufacturer in the 1970&#39;s, and has grown to 
                         become a leading global athletic products company. Today New Balance is a family of brands including New Balance, Dunham, PF Flyers, Aravon, Warrior and Brine. Since the 
                         days of selling arch supports to police officers and waiters, New Balance has been a brand concerned with meeting the needs of the everyday athlete. Part of producing superior
                          footwear and athletic apparel is manufacturingNew Balance began as a Boston-based arch support company in the early 1900&#39;s, developed into a specialized shoe manufacturer 
@@ -115,20 +115,20 @@
                          company in the early 1900&#39;s, developed into a specialized shoe manufacturer in the 1970&#39;s, and has grown to become a leading global athletic products company. Today New 
                          Balance is a family of brands including New Balance, Dunham, PF Flyers, Aravon, Warrior and Brine. Since the days of selling arch supports to police officers and waiters, New 
                          Balance has been a brand concerned with meeting the needs of the everyday athlete. Part of producing superior footwear and athletic apparel is manufacturing</span></p>
-                        <button onclick="JagoankodeStedy()" id="myjagoankode">Baca selengkapnya</button>
+                        <button onclick="myFunction()" id="myBtn">Baca selengkapnya</button>
                         
                         <script>
-                        function JagoankodeStedy() {
-                          var jagoankodeblog = document.getElementById("jagoankodeblog");
+                        function myFunction() {
+                          var dots = document.getElementById("dots");
                           var selengkapnyaText = document.getElementById("selengkapnya");
-                          var jagoankodecool = document.getElementById("myjagoankode");
+                          var jagoankodecool = document.getElementById("myBtn");
                         
-                          if (jagoankodeblog.style.display === "none") {
-                            jagoankodeblog.style.display = "inline";
+                          if (dots.style.display === "none") {
+                            dots.style.display = "inline";
                             jagoankodecool.innerHTML = "Baca selengkapnya"; 
                             selengkapnyaText.style.display = "none";
                           } else {
-                            jagoankodeblog.style.display = "none";
+                            dots.style.display = "none";
                             jagoankodecool.innerHTML = "Sembunyikan"; 
                             selengkapnyaText.style.display = "inline";
                           }
